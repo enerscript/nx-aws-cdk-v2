@@ -6,7 +6,7 @@
     "email": "github@ago-dev.org"
   },
   "license": "MIT",
-  "homepage": "https://github.com/enerscript/nx-plugins",
+  "homepage": "https://github.com/enerscript/nx-aws-cdk-v2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/enerscript/nx-aws-cdk-v2.git"
@@ -82,5 +82,5 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "version": ""
+  "version": "1.0.1"
 }
