@@ -9,7 +9,7 @@
   "homepage": "https://github.com/enerscript/nx-plugins",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enerscript/nx-aws-cdk-v2"
+    "url": "git+https://github.com/enerscript/nx-aws-cdk-v2.git"
   },
   "scripts": {
     "nx": "nx",
@@ -22,7 +22,6 @@
     "build:aws-cdk": "nx build aws-cdk-v2",
     "link:aws-cdk": "cd dist/packages/aws-cdk-v2 && npm link"
   },
-  "private": true,
   "dependencies": {
     "aws-cdk": "2.143.0",
     "aws-cdk-lib": "2.143.0",
@@ -79,5 +78,9 @@
     "*.{js,json,css,scss,md,ts,html,graphql}": [
       "npm run format --uncommitted"
     ]
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "version": ""
 }
